@@ -1,0 +1,44 @@
+body{
+	padding-top: 60px;
+}
+
+.login-box{
+	padding: 15px;
+}
+
+.plan{
+	display: block;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 2em;
+	color: #333;
+	height: 55px;
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+
+.plan:hover{
+	background: #f9f5dc;
+	text-decoration: none;
+	color: #333;
+}
+
+.plan form, .plan span{
+	display: block;
+	font-size: 0.5em;
+	margin: 15px 0 0;
+}
+
+.plan.active{
+	background: #f9f5dc;
+	cursor: default;
+}
+
+.plan.active form, .plan.active span{
+	display: none;
+}
+
+.expires{
+	text-align: center;
+}
